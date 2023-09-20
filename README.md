@@ -1,5 +1,5 @@
 # Empresa
-Soy un hijo que quiere ayudar a su padre con las facturas de su empresa de fontanería debido a la elevada carga de trabajo y el poco timepo del que dispone para poder realizarlas.
+La liga española de fútbol quiere regular el dinero que invierte cada equipo en salarios y presupuesto de fichajes ya que quieren evitar que los equipos paguen por encima de sus posibilidades durante el periodo de fichajes y luego no puedan pagar a los jugadores de su club.
 
 ## Claves de github
 
