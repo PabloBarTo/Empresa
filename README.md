@@ -1,5 +1,5 @@
 # Empresa
-Soy un hijo que quiere ayudar a su padre con su empresa de fontanería debido a la elevada carga de trabajo. Para ello se anotarían todos los pedidos realizados de forma que sea más fácil llevar la cuenta de los pedidos. También se anotarían las personas que soliciten su trabajo y tmabién me encargaría de llevar las facturas de cada cliente para que de esta forma se agilice mucho más el tema del papeleo y las cuentas.
+Soy un hijo que quiere ayudar a su padre con las facturas de su empresa de fontanería debido a la elevada carga de trabajo y el poco timepo del que dispone para poder realizarlas.
 
 ## Claves de github
 
