@@ -1,0 +1,10 @@
+Milestones
+
+[M0] Análisis del problema
+Leer y comprender bien cúal es el problema que presenta el usuario.
+
+[M1] Análisis de los jugadores
+Hay que analizar detenidamente todas las estadísticas de los jugadores para saber qué jugadores son los que mejores estadísticas tienen.
+
+[M2]  Lógico de negocio
+Métodos y código que hay que desarrollar para implementar el algoritmo que teniendo en cuenta el presupuesto del que disponemos y la información de los jugadores analizada anteriormente nos informe cuáles son los jugadores que debemos fichar para obtener la mayor puntuación posible.
