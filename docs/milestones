@@ -1,14 +1,10 @@
 Milestones
 
-[M0] Análisis del problema
-Leer y comprender bien cual es el problema que presenta el usuario.
+[M0] Modelo del problema
+La intención es definir el problema que presenta el usuario y las partes clave a partir de los HUs y obtener un informe sobre cual es el problema y sus detalles. Será viable si lo aprueba el product manager.
 
-[M1] Análisis de los jugadores
-Hay que analizar detenidamente todas las estadísticas de los jugadores para saber que jugadores son los que mejores estadísticas tienen.
+[M1] Información de los jugadores
+Hay que analizar detenidamente todas las estadísticas de los jugadores para saber que jugadores son los que mejores estadísticas tienen. Se obtendrá un informe con toda la información de los jugadores. Será viable si pasa unos tests.
 
-<<<<<<< HEAD
-[M2]  Lógico de negocio
-=======
 [M2]  Lógica de negocio
->>>>>>> e05cf84 (Actualizacion de contenidos)
-Métodos y código que hay que desarrollar para implementar el algoritmo, que teniendo en cuenta el presupuesto del que disponemos y la información de los jugadores analizada anteriormente nos informe cuáles son los jugadores que debemos fichar para obtener la mayor puntuación posible.
+Código y clases que hay que desarrollar para implementar el algoritmo, que teniendo en cuenta el presupuesto del que disponemos y la información de los jugadores analizada anteriormente nos informe cuáles son los jugadores que debemos fichar para obtener la mayor puntuación posible. Será viable si pasa unos tests.
