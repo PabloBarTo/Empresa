@@ -12,3 +12,11 @@ Soy un jugador de la liga fantasy que es un juego en el que tienes que formar un
 ## Mis datos
 
 ![Mis datos](./docs/yo.png)
+
+## Historias de usuario
+
+![Historias de usuario](./docs/historias_de_usuarios)
+
+## Milestones
+
+![Milestones](./docs/milestones)
