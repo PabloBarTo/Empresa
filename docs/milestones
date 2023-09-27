@@ -4,4 +4,10 @@ Milestones
 La intención es definir el modelo del problema que presenta el usuario y las partes clave a partir de los HUs y obtener el código modularizado del modelo del problema. Será viable si lo aprueba el product manager.
 
 [M1] Implementación de la selección de jugadores
-Código y clases que hay que desarrollar para implementar el algoritmo, que teniendo en cuenta el presupuesto del que disponemos y la información de los jugadores nos informe cuáles son los jugadores que debemos fichar para obtener la mayor puntuación posible. Será viable si pasa unos tests.
+Código y clases que hay que desarrollar para implementar el algoritmo, que teniendo en cuenta el presupuesto del que disponemos y la información de los jugadores nos informe cuáles son los jugadores que debemos fichar para obtener la mayor puntuación posible aunque tengamos que pagar el valor de la cláusula para fichar a un jugador procedente de otro equipo. Será viable si pasa unos tests.
+
+[M2] Implementación de la venta de jugadores
+Código y clases que hay que desarrollar para implementar el algoritmo, que teniendo en cuenta el precio de los jugadores y los puntos y estadísticas que obtuvieron en jornadas anteriores nos informe de que jugadores deberíamos vender para fichar a otros mejores, es decir que hagan más puntos.
+
+[M3] Implementación de subida de cláusulas a jugadores
+Código y clases que hay que desarrollar para implementar el algoritmo, que teniendo en cuenta el precio de los jugadores y los puntos y estadísticas que obtuvieron en jornadas anteriores nos informe de que ese jugador es de los mejores de la liga ya que realiza muchos puntos y por tanto deberíamos subirle el valor de su cláusula para intentar protegerlo y que no nos lo fiche otro usuario para su equipo.
