@@ -1,7 +1,7 @@
 Milestones
 
 [M0] Modelo del problema
-La intención es costruir el modelo del problema que presenta el usuario y las partes clave a partir de los HUs y obtener el código modularizado del modelo del problema. Será viable si lo aprueba el product manager.
+La intención es construir el modelo del problema que presenta el usuario y las partes clave a partir de los HUs y obtener el código modularizado del modelo del problema. Será viable si lo aprueba el product manager.
 
 [M1] Implementación de la selección de jugadores
 Código y clases que hay que desarrollar para implementar el algoritmo, que teniendo en cuenta el presupuesto del que disponemos y la información de los jugadores nos informe cuáles son los jugadores que debemos fichar para obtener la mayor puntuación posible aunque tengamos que pagar el valor de la cláusula para fichar a un jugador procedente de otro equipo. Será viable si pasa unos tests.
