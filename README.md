@@ -3,12 +3,20 @@ Soy un jugador de la liga fantasy que es un juego en el que tienes que formar un
 
 ## Claves de github
 
-![Clave Github](./Documentos/clave_ssh.png)
+![Clave Github](./docs/clave_ssh.png)
 
 ## Correo y usuario
 
-![Correo y usuario](./Documentos/datos.png)
+![Correo y usuario](./docs/datos.png)
 
 ## Mis datos
 
-![Mis datos](./Documentos/yo.png)
+![Mis datos](./docs/yo.png)
+
+## Historias de usuario
+
+![Historias de usuario](./docs/historias_de_usuarios)
+
+## Milestones
+
+![Milestones](./docs/milestones)
