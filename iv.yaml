@@ -1,2 +1,2 @@
 lenguaje: Typescript
-entidad:
+entidad: src/models/equipo.ts
