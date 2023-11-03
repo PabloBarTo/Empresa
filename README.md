@@ -11,7 +11,7 @@ Para realizar la comprobación de la sintaxis de esta entidad tendremos que ejec
 
 
 ```bash
-deno task check
+denosk run check
 ```
 
 ## Claves de github
