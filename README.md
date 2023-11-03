@@ -7,7 +7,12 @@ La clase equipo representa la entidad de este proyecto. Aquí sería donde se en
 
 ### Comprobación de sintaxis
 
-Para realizar la comprobación de la sintaxis de esta entidad tendremos que ejecutar en la terminal la siguiente orden: *denosk run check*
+Para realizar la comprobación de la sintaxis de esta entidad tendremos que ejecutar en la terminal la siguiente orden
+
+
+```bash
+deno task check
+```
 
 ## Claves de github
 
