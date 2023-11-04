@@ -21,9 +21,11 @@ Jitar es un runtime distribuido para JavaScript y TypeScript que automatiza la c
 
 Nakama es un framework de juegos multijugador en línea que admite TypeScript. Es un runtime completo que incluye un servidor de juegos, un sistema de chat, un sistema de economía y un sistema de logros. Nakama está diseñado para ser seguro por defecto. El framework utiliza una serie de mecanismos de seguridad, como autenticación, autorización y cifrado, para proteger los datos de los usuarios. Nakama admite TypeScript y JavaScript. Nakama es una buena opción para el desarrollo de juegos multijugador en línea. El framework es seguro, compatible y rico en características.
 
-Entre estos he decidido quedarme con Deno por diversas razones.
+## Selección
 
-## Ventajas de Deno frente a Node.js
+Entre estos he decidido quedarme con Deno por diversas razones:
+
+### Ventajas de Deno frente a Node.js
 
 - Una de ellas es que Deno fue diseñado para que fuera seguro por defecto y requiere indicadores de permiso para acceder a los recursos del sistema, de esta manera es menos vulnerable a los ataques. En cambio Node.js tiene un modelo de seguridad menos restrictrivo y aunques mayor flexibilidad y facilidad de desarrollo también tiene más potencial para brechas de seguridad. 
 
@@ -31,7 +33,7 @@ Entre estos he decidido quedarme con Deno por diversas razones.
 
 - Deno utiliza importaciones basadas en URL, eliminando la necesidad de un gestor de paquetes independientes como npm. En cambio Node.js depende de npm y del archivo package.json para gestionar sus dependencias.
 
-## Ventajas de Deno frente a Jitar
+### Ventajas de Deno frente a Jitar
 
 - Deno está más actualizado que Jitar ya que está construido sobre la última versión de V8.
 
@@ -39,7 +41,7 @@ Entre estos he decidido quedarme con Deno por diversas razones.
 
 - Jitar podría ser algo difícil de aprender. En cambio Deno sí es bastante fácil de aprender cómo usarlo.
 
-## Ventajas de Deno frente a Nakama
+### Ventajas de Deno frente a Nakama
 
 - Deno presenta una mayor seguridad que Nakama.
 
