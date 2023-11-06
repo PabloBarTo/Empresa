@@ -11,7 +11,7 @@ Para realizar la comprobación de la sintaxis de esta entidad tendremos que ejec
 
 
 ```bash
-denosk run check
+dn check
 ```
 
 ## Claves de github
