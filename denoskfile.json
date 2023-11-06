@@ -1,9 +1,0 @@
-{
-	"tasks": {
-		"check": {
-			"function": async () => {
-				deno check src/equipo.ts
-			}
-		}
-	}
-}
