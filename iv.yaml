@@ -1,5 +1,5 @@
 lenguaje: TypeScript
 entidad: src/equipo.ts
 automatizar:
-  fichero: denoskfile.json
-  orden: denosk run
+  fichero: deno.json
+  orden: dn
