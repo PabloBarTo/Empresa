@@ -7,7 +7,7 @@ por no entender algo de su funcionalidad o de los propios errores que nos pueda 
 
 - Que exista una documentación amplia y buena ya que en caso de que aparezcan problemas o dudas sobre su funcionamiento tengamos algo en lo que apoyarnos para resolver estas cuestiones que se nos puedan presentar.
 
-- Que sea compatible con el runtime que hemos elegido. En mi caso el runtime que he elegido es Deno, por tanto el gestor de dependencias deberá de ser compatible con Deno.
+- Que sea eficiente, es decir, que sea rápido y que no entorpezca el desarrollo del proyecto.
 
 
 ## Make
@@ -26,7 +26,7 @@ por no entender algo de su funcionalidad o de los propios errores que nos pueda 
 "Deno Task" es un módulo de Deno que permite ejecutar tareas de manera asincrónica. Sus principales características es que las tareas se ejecutan de forma asíncrona por lo que permite que el código principal continúe ejecutándose mientras las tareas se ejecuetan en segundo plano. También permite que las tareas se ejecuten en paralelo. Además es muy fácil de utilizar. A diferencia de los demás este si es específico para JavaScript y TypeScript.
 
 ## Moon
-"Moon" es un framework ligero y flexible que permite a los desarrolladores crear aplicaciones con una interfaz de usuario atractiva y de alto rendimiento. Moon se puede utilizar para crear aplicaciones en cualquier plataforma, es tmabién fácil de usar y también es extensible.
+"Moon" es un framework ligero y flexible que permite a los desarrolladores crear aplicaciones con una interfaz de usuario atractiva y de alto rendimiento. Moon se puede utilizar para crear aplicaciones en cualquier plataforma, es también fácil de usar y también es extensible.
 
 ## Selección
-De todos los task runners que he comentado aquí he decidido quedarme con Denosk debido a que es muy fácil de aprender a utilizarlo y ofrece muchas posibilidades distintas. Además que al tener una documentación tan buena es mucho más fácil de entender y de resolver cualquier problema que pueda tener. También es de los más recomendables para trabajar con Deno.
+De todos los task runners que he comentado aquí he decidido quedarme con Denosk debido a que es muy fácil de aprender a utilizarlo y ofrece muchas posibilidades distintas. Además que al tener una documentación tan buena es mucho más fácil de entender y de resolver cualquier problema que pueda tener.
