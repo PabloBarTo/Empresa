@@ -1,5 +1,15 @@
 # Gestor de tareas
 
+## Criterios de elección
+
+- Facilidad en el uso, ya que es algo con lo que vamos a estar trabajando y siempre es preferible trabajar con algo que se entiende y no es muy laborioso ya que a la larga nos ahorraremos tener problemas 
+por no entender algo de su funcionalidad o de los propios errores que nos pueda dar el gestor.
+
+- Que exista una documentación amplia y buena ya que en caso de que aparezcan problemas o dudas sobre su funcionamiento tengamos algo en lo que apoyarnos para resolver estas cuestiones que se nos puedan presentar.
+
+- Que sea compatible con el runtime que hemos elegido. En mi caso el runtime que he elegido es Deno, por tanto el gestor de dependencias deberá de ser compatible con Deno.
+
+
 ## Make
 "Make" es un sistema de construcción y automatización de tareas que se utiliza comúnmente en el desarrollo de software. Utiliza un archivo llamado "Makefile" que es el núcleo del proyecto. En él se definen las tareas y las reglas que se desean automatizar. Aunque Make no está específicamente diseñado para JavaScript, es ampliamente utilizado en el desarrollo de software, y su enfoque basado en reglas lo convierte en un poderoso "task runner" para automatizar tareas en proyectos de programación. Su principal limitación es que su sintaxis puede resultar más compleja que las herramientas de "task runner" específicas de JavaScript.
 
@@ -19,4 +29,4 @@
 "Moon" es un framework ligero y flexible que permite a los desarrolladores crear aplicaciones con una interfaz de usuario atractiva y de alto rendimiento. Moon se puede utilizar para crear aplicaciones en cualquier plataforma, es tmabién fácil de usar y también es extensible.
 
 ## Selección
-De todos los task runners que he comentado aquí he decidido quedarme con Denosk debido a que es muy fácil de aprender a utilizarlo y ofrece muchas posibilidades distintas. Además que al tener una documentación tan buena es mucho más fácil de entender y de resolver cualquier problema que pueda tener.
+De todos los task runners que he comentado aquí he decidido quedarme con Denosk debido a que es muy fácil de aprender a utilizarlo y ofrece muchas posibilidades distintas. Además que al tener una documentación tan buena es mucho más fácil de entender y de resolver cualquier problema que pueda tener. También es de los más recomendables para trabajar con Deno.
