@@ -2,12 +2,11 @@
 
 ## Criterios de elección
 
-- Facilidad en el uso, ya que es algo con lo que vamos a estar trabajando y siempre es preferible trabajar con algo que se entiende y no es muy laborioso ya que a la larga nos ahorraremos tener problemas 
-por no entender algo de su funcionalidad o de los propios errores que nos pueda dar el gestor.
+- Que sea un lenguaje fácil de aprender, es decir, que saber como utilizarlo no supongo más problema del que ya supone nuestro propio problema en sí.
 
-- Que exista una documentación amplia y buena ya que en caso de que aparezcan problemas o dudas sobre su funcionamiento tengamos algo en lo que apoyarnos para resolver estas cuestiones que se nos puedan presentar.
+- Que exista una documentación buena y que tenga una comunidad amplia ya que en caso de que aparezcan problemas o dudas sobre su funcionamiento tengamos algo en lo que apoyarnos para resolver estas cuestiones que se nos puedan presentar.
 
-- Que sea eficiente, es decir, que sea rápido y que no entorpezca el desarrollo del proyecto.
+- Que se actualice con frecuencia.
 
 
 ## Make
@@ -15,9 +14,6 @@ por no entender algo de su funcionalidad o de los propios errores que nos pueda 
 
 ## Drake
 "Drake" es un sistema de automatización de tareas inspirado en Make que se utiliza para definir y ejecutar flujos de trabajo en el entorno de análisis de datos, especialmente en el lenguaje de programación R. Drake se utiliza para automatizar tareas relacionadas con la ciencia de datos y el análisis estadístico. En Drake se definen las tareas y flujos de trabajo en un archivo de configuración llamado "Drakefile." Drake se destaca en la gestión de dependencias. Si una tarea depende de la salida de otra tarea, Drake asegurará que se ejecuten en el orden correcto. Esto es especialmente útil en el análisis de datos, donde los resultados de una tarea a menudo dependen de los resultados de otras. Aunque no es una herramienta típica de "task runner" en el sentido tradicional, cumple una función similar en el ámbito del análisis de datos y la programación en R.
-
-## Gulp
-"Gulp¨" es un task runner basado en Node.js que es muy popular entre los desarrolladores de JavaScript y TypeScript. Es fácil de aprender y de usar y dispone de una gran cantidad de plugins disponibles. Gulp utiliza streams para procesar archivos, lo que lo hace muy eficiente. Además cuenta con una documentación completa y bien escrita
 
 ## Denosk
 "Denosk" es un task runner para Deno inspirado en Gulp. Denosk tiene una sintaxis sencilla y fácil de entender, además cuenta con una gran cantidad de plugins disponibles para automatizar casi cualquier tarea. También utiliza streams para procesar archivos por lo que es muy eficiente. A todo esto también hay que sumarle que es extensible, es decir, que se pueden crear plugins para autimatizar tareas propias. Al igual que Gulp cuenta con una documnetación muy completa y bien escrita.
