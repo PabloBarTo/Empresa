@@ -2,11 +2,11 @@
 
 ## Criterios de elección
 
-- Que ofrezca muchas posibilidades y sea extensible.
+- Que sea extensible.
 
 - Que se actualice con frecuencia.
 
-- Que el gestor de tareas elegido garantice seguridad.
+- Que cuente con una gran comunidad que pueda ser de ayuda para resolver errores.
 
 ## Make
 "Make" es un sistema de construcción y automatización de tareas que se utiliza comúnmente en el desarrollo de software. Utiliza un archivo llamado "Makefile" que es el núcleo del proyecto. En él se definen las tareas y las reglas que se desean automatizar. Aunque Make no está específicamente diseñado para JavaScript, es ampliamente utilizado en el desarrollo de software, y su enfoque basado en reglas lo convierte en un poderoso "task runner" para automatizar tareas en proyectos de programación. Su principal limitación es que su sintaxis puede resultar más compleja que las herramientas de "task runner" específicas de JavaScript. Make es extensible, ofrece una amplia gama de funciones y opciones, lo que le permite realizar una amplia gama de tareas. Se actualiza con frecuencia para corregir errores y añadir nuevas funciones y además es un software seguro. Sin embargo puede ser algo complejo de aprender a utilizar.
