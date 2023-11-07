@@ -1,16 +1,14 @@
-import { Jugador } from './jugador';
-
 export class Equipo {
     constructor(
         private nombre: string, 
-        private jugadores: Jugador[])
+        private jugadores: string)
     {}
 
     getNombre(): string {
         return this.nombre;
     }
 
-    getJugadores(): Jugador[] {
+    getJugadores(): string {
         return this.jugadores;
     }
 
