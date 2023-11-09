@@ -2,8 +2,8 @@ import { Jugador } from "./jugador";
 
 
 class Equipo {
-    private readonly presupuesto: number;
-    private readonly plantilla: Jugador[];
+    private presupuesto: number;
+    private plantilla: Jugador[];
 
     constructor(presupuesto: number = 100000000, plantilla: Jugador[] =[]) {
         this.presupuesto = presupuesto;
