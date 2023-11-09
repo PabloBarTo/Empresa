@@ -1,10 +1,3 @@
-export enum Posicion {
-    PORTERO = "PORTERO",
-    DEFENSA = "DEFENSA",
-    CENTRAL = "CENTRAL",
-    DELANTERO = "DELANTERO"
-}
-
 interface Desempeno {
     jornada: string | number,
     puntuacion: number
@@ -17,9 +10,8 @@ interface ValorMercado {
 
 export class Jugador {
     private readonly nombre: string;
-    private readonly posicion: Posicion;
-    private readonly puntuaciones: Desempeno[];
-    private readonly valoresMercado: ValorMercado[];
+    private puntuaciones: Desempeno[];
+    private valoresMercado: ValorMercado[];
 
     constructor(
         nombre: string,
