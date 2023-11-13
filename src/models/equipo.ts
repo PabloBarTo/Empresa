@@ -1,7 +1,7 @@
 import { Jugador } from "./jugador";
 
 
-class Equipo {
+export class Equipo {
     private presupuesto: number;
     private plantilla: Jugador[];
 
