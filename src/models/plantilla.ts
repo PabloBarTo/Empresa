@@ -1,7 +1,7 @@
 import { Jugador } from "./jugador";
 
 
-class Equipo {
+class Plantilla {
     private readonly presupuesto: number;
     private readonly plantilla: Jugador[];
 
