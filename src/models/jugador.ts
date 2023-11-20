@@ -3,20 +3,15 @@ interface Desempeno {
     puntuacion: number
 } 
 
-interface ValorMercado {
-    dia: Date,
-    valor: number
-}
-
 export class Jugador {
     private readonly nombre: string;
     private puntuaciones: Desempeno[];
-    private valoresMercado: ValorMercado[];
+    private valoresMercado: number[];
 
     constructor(
         nombre: string,
         puntuaciones: Desempeno[] = [], 
-        valores: ValorMercado[] = []
+        valores: number[] = []
     ) {
         this.nombre = nombre;
         this.puntuaciones = puntuaciones;
@@ -29,9 +24,5 @@ export class Jugador {
 
     getPuntuaciones(): Desempeno[] {
         return this.puntuaciones;
-    }
-
-    getValoresMercado(): ValorMercado[] {
-        return this.valoresMercado;
     }
 }
