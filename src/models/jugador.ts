@@ -1,5 +1,5 @@
 interface Desempeno {
-    jornada: string | number,
+    jornada: number,
     puntuacion: number
 } 
 
