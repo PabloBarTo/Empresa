@@ -14,5 +14,16 @@ export class Jugador {
 
     getValorPorJornada(): number[] {
         return this.valor_por_jornada;
+    }    
+
+    getValorUltimaJornada(): number {
+        return this.valor_por_jornada[this.valor_por_jornada.length - 1];
     }
+
+    getPuntuacionUltimaJornada(): number {
+        return this.puntuacionPorJornada[this.puntuacionPorJornada.length - 1];
+    }
+
+    
 }
+
