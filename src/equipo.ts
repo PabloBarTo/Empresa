@@ -1,6 +1,7 @@
 import { Jugador } from './jugador.ts';
 import { Mercado } from './mercado.ts';
 
+
 export class Equipo {
     private nombre  : string;
     private jugadores : Jugador[];
@@ -26,4 +27,8 @@ export class Equipo {
         return this.presupuesto;
     }
 
+    ficharJugadores(): void {
+        const resultado = this.mercado.seleccionarJugadoresMaxPuntos(this.presupuesto);
+        this.jugadores.push(...resultado.jugadores);
+    }
 }
