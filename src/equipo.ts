@@ -30,5 +30,6 @@ export class Equipo {
     ficharJugadores(): void {
         const resultado = this.mercado.seleccionarJugadoresMaxPuntos(this.presupuesto);
         this.jugadores.push(...resultado.jugadores);
+        this.presupuesto = resultado.presupuestoRestante;
     }
 }
