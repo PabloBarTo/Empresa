@@ -1,1 +1,3 @@
-{ "tasks": { "check": "deno check --all src/equipo.ts" } }
+{ 
+    "tasks": { "check": "deno check --all src/equipo.ts" },
+}
