@@ -1,0 +1,54 @@
+[
+    {
+        "titulo": "Jugadores del mercado",
+        "jugadores": [
+            {
+                "nombre": "Bellingham",
+                "puntuacionPorJornada": [
+                    20,
+                    18,
+                    10,
+                    20
+                ],
+                "valor_por_jornada": [
+                    80000000,
+                    80000000,
+                    80000000,
+                    80000000
+                ]
+            },
+            {
+                "nombre": "Kubo",
+                "puntuacionPorJornada": [
+                    15,
+                    12,
+                    14,
+                    10
+                ],
+                "valor_por_jornada": [
+                    60000000,
+                    60000000,
+                    60000000,
+                    60000000
+                ]
+            },
+            {
+                "nombre": "Gavi",
+                "puntuacionPorJornada": [
+                    10,
+                    9,
+                    15,
+                    10
+                ],
+                "valor_por_jornada": [
+                    20000000,
+                    20000000,
+                    20000000,
+                    20000000
+                ]
+            }
+        ],
+        "jugadores_optimos_nombre": ["Kubo", "Gavi"]
+    }
+
+]
