@@ -14,6 +14,10 @@ Para realizar la comprobación de la sintaxis de esta entidad tendremos que ejec
 dn check
 ```
 
+Para realizar la comprobación de la selección de jugadores tendremos que ejecutar en la terminal el siguiente comando
+```bash
+dn test
+```
 ## Claves de github
 
 ![Clave Github](./docs/clave_ssh.png)
@@ -45,3 +49,6 @@ dn check
 ## Gestor de tareas
 
 ![Gestor de tareas](./docs/gestor_tareas.md)
+
+## Gestor de test
+![Gestor de test](./docs/elección_test_runner.md)
