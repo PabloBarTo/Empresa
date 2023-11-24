@@ -19,14 +19,6 @@ export class Equipo {
         return this.nombre;
     }
 
-    get _jugadores(){
-        return this.jugadores;
-    }
-
-    get _presupuesto(){
-        return this.presupuesto;
-    }
-
     ficharJugadores(): void {
         const resultado = this.mercado.seleccionarJugadoresMaxPuntos(this.presupuesto);
         this.jugadores.push(...resultado.jugadores);
