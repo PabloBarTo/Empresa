@@ -1,5 +1,4 @@
 import { Jugador } from './jugador.ts';
-import { Equipo } from './equipo.ts';
 
 export class Mercado {
     private jugadoresDisponibles : Jugador[];
@@ -8,48 +7,57 @@ export class Mercado {
         this.jugadoresDisponibles = jugadores;
     }
 
-    getJugadoresDisponibles(): Jugador[] {
+    private get _jugadoresDisponibles(): Jugador[] {
         return this.jugadoresDisponibles;
     }
 
     seleccionarJugadoresMaxPuntos(presupuestoMaximo: number): { jugadores: Jugador[], presupuestoRestante: number } {
-        const n = this.jugadoresDisponibles.length;
-
         let mejorSeleccion: Jugador[] = [];
         let mejorPuntuacion = 0;
-        let presupuesto_restante = presupuestoMaximo;
+        let presupuestoRestante = presupuestoMaximo;
 
-        const calcularPuntuacion = (seleccion: Jugador[]): number => {
-            return seleccion.reduce((total, jugador) => total + jugador.getPuntuacionUltimaJornada(), 0);
-        };
-
-        const buscarCombinacion = (actual: number, seleccion: Jugador[], presupuestoRestante: number): void => {
-            if (actual === n) {
-                const puntuacionActual = calcularPuntuacion(seleccion);
-                if (puntuacionActual > mejorPuntuacion && presupuestoRestante >= 0) {
-                    mejorPuntuacion = puntuacionActual;
-                    mejorSeleccion = [...seleccion];
-                    presupuesto_restante = presupuestoRestante;
-                }
-                return;
-            }
-
-            seleccion.push(this.jugadoresDisponibles[actual]);
-            buscarCombinacion(actual + 1, seleccion, presupuestoRestante - this.jugadoresDisponibles[actual].getValorUltimaJornada());
-            seleccion.pop();  // Excluir el jugador actual en la selección
-
-            buscarCombinacion(actual + 1, seleccion, presupuestoRestante);
-        };
-
-        buscarCombinacion(0, [], presupuestoMaximo);
+        // Llamamos a buscarCombinacion y actualizamos los resultados
+        const resultado = this.buscarCombinacion(0, [], presupuestoMaximo, mejorSeleccion, mejorPuntuacion);
+        mejorSeleccion = resultado.jugadores;
+        presupuestoRestante = resultado.presupuestoRestante;
 
         console.log("Jugadores seleccionados:", mejorSeleccion.map(jugador => jugador.nombre));
-        console.log("Presupuesto restante:", presupuesto_restante);
+        console.log("Presupuesto restante:", presupuestoRestante);
 
         return {
             jugadores: mejorSeleccion,
-            presupuestoRestante: presupuesto_restante
+            presupuestoRestante: presupuestoRestante
         };
     }
-    
+
+    private buscarCombinacion(actual: number, seleccion: Jugador[], presupuestoRestante: number, mejorSeleccion: Jugador[], mejorPuntuacion: number): { jugadores: Jugador[], presupuestoRestante: number } {
+        const n = this.jugadoresDisponibles.length;
+
+        if (actual === n) {
+            const puntuacionActual = this.calcularPuntuacion(seleccion);
+            if (puntuacionActual > mejorPuntuacion && presupuestoRestante >= 0) {
+                mejorPuntuacion = puntuacionActual;
+                mejorSeleccion = [...seleccion];
+            }
+            return { jugadores: mejorSeleccion, presupuestoRestante };
+        }
+
+        const jugadorActual = this.jugadoresDisponibles[actual];
+        seleccion.push(jugadorActual);
+        const resultadoConJugador = this.buscarCombinacion(actual + 1, seleccion, presupuestoRestante - jugadorActual.getValorUltimaJornada(), mejorSeleccion, mejorPuntuacion);
+        mejorSeleccion = resultadoConJugador.jugadores;
+        seleccion.pop();  
+
+        const resultadoSinJugador = this.buscarCombinacion(actual + 1, seleccion, presupuestoRestante, mejorSeleccion, mejorPuntuacion);
+
+        mejorPuntuacion = this.calcularPuntuacion(mejorSeleccion);
+
+        return mejorPuntuacion > this.calcularPuntuacion(resultadoSinJugador.jugadores)
+            ? { jugadores: mejorSeleccion, presupuestoRestante: presupuestoRestante - jugadorActual.getValorUltimaJornada() }
+            : resultadoSinJugador;
+    }
+
+    private calcularPuntuacion(seleccion: Jugador[]): number {
+        return seleccion.reduce((total, jugador) => total + jugador.getPuntuacionUltimaJornada(), 0);
+    }
 }
