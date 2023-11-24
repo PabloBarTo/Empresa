@@ -3,4 +3,4 @@ entidad: src/equipo.ts
 automatizar:
   fichero: deno.json
   orden: dn
-test: test/comprobacion.ts
+test: test/mercado_test.ts
