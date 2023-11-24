@@ -15,15 +15,15 @@ export class Equipo {
         this.mercado = mercado;
     }
 
-    getNombre(): string {
+    get _nombre(){
         return this.nombre;
     }
 
-    getJugadores(): Jugador[] {
+    get _jugadores(){
         return this.jugadores;
     }
 
-    getPresupuesto(): number {
+    get _presupuesto(){
         return this.presupuesto;
     }
 
