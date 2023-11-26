@@ -32,4 +32,6 @@ Ubuntu tiene un tamaño de 26.01 MB.
 
 Alpine tiene un tamaño de 3.09 MB.
 
-Por tanto teniendo en cuenta los tamaños de cada uno nos quedaremos con Alpine, ya que es el más ligero.
+## Selección
+
+Siguiendo la información dada en snyk Advisor los dos mejores valorados son Ubuntu y Alpine. Por tanto teniendo en cuenta esta valoración y los tamaños de cada uno nos quedaremos con Alpine, ya que es el más ligero.
