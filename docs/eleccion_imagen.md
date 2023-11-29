@@ -7,7 +7,6 @@ Para la elección de la imagen seguiremos los siguientes criterios:
 - La imagen que seleccionemos debe ser compatible con deno.
 - También buscaremos que la imagen sea lo más ligera posible ya que eso significará que se reduce el número de herramientas instaladas que no serán usadas.
 - Debe ser segura y que cuente con un equipo que ante cualquier problema ofrezca una rápida solución mediante cualquier actualización.
-- Puntuación dada en snyk Advisor ya que podremos saber datos como la popularidad y la valoración que le han dado muchas personas que lo hayan usado.
 
 ## Imágenes candidatas
 
@@ -17,24 +16,23 @@ Para la elección de las imágenes podemos optar por dos **opciones**:
 
 Siguiendo los criterios definidos previamente nos enfocaremos en la imagen que trae deno instalado.
 Todas las opciones mencionadas incluyen deno, así que para elegir uno, los principal en lo que nos centraremos será en que sea lo más ligero posible.
-La información sobre qué imágenes son compatibles con deno las he encontrado en [Imágenes compatibles con deno](https://hub.docker.com/r/denoland/deno)
+Las imágenes que son compatibles con deno y están publicadas en Dockerhub son [Imágenes compatibles con deno](https://hub.docker.com/r/denoland/deno)
 
 # Debian
 
-[Debian](https://hub.docker.com/layers/denoland/deno/debian-1.38.0/images/sha256-7f20f22c661b237715dfa3e6aab1298a31608814c5097d3e8f1446fcfffe0915?context=explore) es una distribución de Linux compuesta íntegramente de software gratuito y de código abierto. Su tamaño es de 28.74 MB. Según snyk Advisor cuenta con una valoración de 4.86K estrellas y con 1B de descargas. [Debian snyk](https://snyk.io/advisor/docker/debian)
-
+[Debian](https://hub.docker.com/layers/denoland/deno/debian-1.38.0/images/sha256-7f20f22c661b237715dfa3e6aab1298a31608814c5097d3e8f1446fcfffe0915?context=explore) es una distribución de Linux compuesta íntegramente de software gratuito y de código abierto. Su tamaño es de 28.74 MB.
 # CentOS
 
-[CentOS](https://hub.docker.com/layers/denoland/deno/centos-1.11.4/images/sha256-13227d7c903a540d70c8db83a82a22766fcd28f3cc92ad932ec17662bda9f71d?context=explore) es un sistema operativo de código abierto, basado en la distribución Red Hat Enterprise Linux. Su tamaño es de 73.15 MB. Según snyk Advisor cuenta con una valoración de 7.68K estrellas y con 1B de descargas. [CentOS snyk](https://snyk.io/advisor/docker/centos)
+[CentOS](https://hub.docker.com/layers/denoland/deno/centos-1.11.4/images/sha256-13227d7c903a540d70c8db83a82a22766fcd28f3cc92ad932ec17662bda9f71d?context=explore) es un sistema operativo de código abierto, basado en la distribución Red Hat Enterprise Linux. Su tamaño es de 73.15 MB. 
 
 # Ubuntu
 
-[Ubuntu](https://hub.docker.com/layers/denoland/deno/ubuntu-1.11.5/images/sha256-068f4e1cea23914add77745131fa0d24e01b4776353b5e572456a6a00e5e8110?context=explore) es un sistema operativo Linux basado en Debian y basado en software libre. Su tamaño es de 26.01 MB. Según snyk Advisor cuenta con una valoración de 16.63K estrellas y con más de 8B de descargas. [Ubuntu snyk](https://snyk.io/advisor/docker/ubuntu)
+[Ubuntu](https://hub.docker.com/layers/denoland/deno/ubuntu-1.11.5/images/sha256-068f4e1cea23914add77745131fa0d24e01b4776353b5e572456a6a00e5e8110?context=explore) es un sistema operativo Linux basado en Debian y basado en software libre. Su tamaño es de 26.01 MB.
 
 # Alpine
 
-[Alpine](https://hub.docker.com/layers/denoland/deno/alpine/images/sha256-4861cf3a58f0b71d5130de5c100e88057d60ea7a2ca8565f68b14471acd3c6ce) es una distribución Linux ultraligera y orientada a la seguridad. Su tamaño es de 3.09 MB. Según snyk Advisor cuenta con una valoración de 10.47K estrellas y con más de 10B de descargas. [Alpine snyk](https://snyk.io/advisor/docker/alpine)
+[Alpine](https://hub.docker.com/layers/denoland/deno/alpine/images/sha256-4861cf3a58f0b71d5130de5c100e88057d60ea7a2ca8565f68b14471acd3c6ce) es una distribución Linux ultraligera y orientada a la seguridad. Su tamaño es de 3.09 MB.
 
 ## Selección
 
-Siguiendo la información dada en snyk Advisor los dos mejores valorados son Ubuntu y Alpine. Por tanto teniendo en cuenta esta valoración y los tamaños de cada uno nos quedaremos con Alpine, ya que es el más ligero.
+Siguiendo los criterios definidos arriba elegiré Alpine ya que es el que tiene menor tamaño.
