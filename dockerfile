@@ -5,12 +5,6 @@ LABEL maintainer="pablo02barto@correo.ugr.es" \
 
 USER deno
 
-WORKDIR /home/deno
-
-COPY deno.json deno.lock ./
-
-RUN deno cache --lock=deno.lock deno.json
-
 WORKDIR /app/test
 
 ENTRYPOINT [ "deno", "task", "test" ]
