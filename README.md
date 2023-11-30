@@ -18,6 +18,19 @@ Para realizar la comprobación de la selección de jugadores tendremos que ejecu
 ```bash
 dn test
 ```
+
+Para construir la imagen ejecutamos el siguiente comando:
+```bash
+sudo docker build -t pablobarto/empresa .
+```
+
+Para ejecutar los tests en el contenedor usamos el siguiente comando:
+```bash
+docker run  -tv `pwd`:/app/test pablobarto/empresa
+```
+
+Para ver la imagen puedes seguir el siguiente enlace [Mi imagen](https://hub.docker.com/r/pablobarto/empresa)
+
 ## Claves de github
 
 ![Clave Github](./docs/clave_ssh.png)
@@ -52,3 +65,6 @@ dn test
 
 ## Gestor de test
 ![Gestor de test](./docs/elección_test_runner.md)
+
+## Imagen
+![Imagen](./docs/eleccion_imagen.md)
