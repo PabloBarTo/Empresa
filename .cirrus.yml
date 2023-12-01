@@ -1,0 +1,5 @@
+container:
+  image: pablobarto/empresa:latest
+  
+test_task:
+  deno test
