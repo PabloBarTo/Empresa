@@ -1,1 +1,6 @@
-task: echo "hello"
+task:
+  container:
+    image: pablobarto/empresa:latest
+
+  - name: Run tests
+    run: deno task test
