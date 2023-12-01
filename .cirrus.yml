@@ -1,5 +1,4 @@
 container:
   image: pablobarto/empresa:latest
 
-test_script:: |
-  deno test
+  test_script: deno test
