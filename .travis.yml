@@ -7,4 +7,4 @@ install:
   - docker pull pablobarto/empresa
   
 script:
-  - sudo docker run  -tv `pwd`:/app/test pablobarto/empresa
+  - docker run -v $(pwd):/app/test pablobarto/empresa
