@@ -1,4 +1,6 @@
-container:
-  image: pablobarto/empresa:latest
+docker:
+  - image: pablobarto/empresa:latest
 
-  test_script: deno test
+tasks:
+  - name: Run Deno Tests
+    command: deno test
