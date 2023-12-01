@@ -4,3 +4,7 @@ automatizar:
   fichero: deno.json
   orden: dn
 test: test/mercado_test.ts
+
+CI:
+  - .github/workflows/action.yml
+  - .cirrus.yml
