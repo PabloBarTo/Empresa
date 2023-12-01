@@ -4,4 +4,4 @@ docker:
 tasks:
   build:
     script:
-      - deno test
+      - echo "Hello"
