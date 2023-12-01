@@ -1,5 +1,5 @@
 container:
   image: pablobarto/empresa:latest
-  
-test_task:
+
+test_script:: |
   deno test
