@@ -25,4 +25,4 @@ Como en los dos anteriores se puede integrar en GitHub. Travis CI fue el primer 
 
 ## Selección
 
-Entre los CI que he mirado los dos que son posible usar (debido a que son gratuitos) serían Circle CI y Travis CI. Entre estos dos he decidido quedarme con Travis ya que Circle CI ha sido ya utilizado por varias personas.
+Después de probar con muchos CI diferentes incluso otros que no aparecen mencionados aquí he decidido utilizar Cirrus ya que ha sido el que me ha funcionado.
