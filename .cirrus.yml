@@ -1,7 +1,1 @@
-docker:
-  - image: pablobarto/empresa:latest
-
-tasks:
-  build:
-    script:
-      - echo "Hello"
+task: echo "hello"
