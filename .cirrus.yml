@@ -1,6 +1,4 @@
+container:
+  image: pablobarto/empresa:latest
 task:
-  container:
-    image: pablobarto/empresa:latest
-
-  - name: Run tests
-    run: deno task test
+  test_script: deno task test
