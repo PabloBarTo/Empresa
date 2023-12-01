@@ -2,5 +2,6 @@ docker:
   - image: pablobarto/empresa:latest
 
 tasks:
-  - name: Run Deno Tests
-    command: deno test
+  build:
+    script:
+      - deno test
