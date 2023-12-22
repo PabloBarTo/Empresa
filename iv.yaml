@@ -1,2 +1,10 @@
-lenguaje: Typescript
-entidad: src/models/plantilla.ts
+lenguaje: TypeScript
+entidad: src/equipo.ts
+automatizar:
+  fichero: deno.json
+  orden: dn
+test: test/mercado_test.ts
+
+CI:
+  - .github/workflows/action.yml
+  - .cirrus.yml
